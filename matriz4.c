@@ -8,7 +8,7 @@ int main(){
 	system("clear");
 	//printf("Digite o range da matriz\n");
 	//scanf("%d",&n);
-	pont_arq = fopen("save.txt","w");
+	pont_arq = fopen("matriz.txt","w");
 	n=100;
 	int mat[n][n];
 	srand(time(NULL));
@@ -20,7 +20,7 @@ int main(){
 	for (i=0;i<n;i++)
 		{
 		for (j=0;j<n;j++)
-			fprintf(pont_arq,"%04d\t",mat[i][j]);
+			fprintf(pont_arq,"%04p\t",mat[i][j]);
 		fprintf(pont_arq,"\n");
 		}
 	fclose(pont_arq);

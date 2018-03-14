@@ -9,12 +9,12 @@ int main(){
 	//printf("Digite o range da matriz\n");
 	//scanf("%d",&n);
 	pont_arq = fopen("matriz.txt","w");
-	n=100;
+	n=1447;
 	int mat[n][n];
 	srand(time(NULL));
 	for(i=0;i<n;i++)
 		for (j=0;j<n;j++){
-			mat[i][j]=rand()%100;
+			mat[i][j]=rand()%2000;
 			hz+=mat[i][j];
 		}
 	for (i=0;i<n;i++)

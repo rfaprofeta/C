@@ -1,0 +1,11 @@
+# Resumo
+ed_lesson3_quadradomagico.c
+ed_lesson3_quadradomagico_v2.c
+ed_lesson3_quadradomagico_v3.c
+ed_lesson3_quadradomagico_v4.c
+ed_lesson3_quadradomagico_v5.c
+ed_lesson3_quadradomagico_v6.c
+ed_lesson3_quadradomagico_v7.c
+ed_lesson3_quadradomagico_v8.c
+lp_lesson3_matriz.c
+resumo.md
